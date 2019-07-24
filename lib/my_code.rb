@@ -18,7 +18,7 @@ result = starting_value
 i=0
 
 while i<source_array.length do
-    result = (yield(result,source_array[i]))
+    result = (yield(!!result,source_array[i]))
     i+= 1
   end
 return result
