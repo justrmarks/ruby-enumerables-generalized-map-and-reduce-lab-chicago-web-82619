@@ -13,7 +13,7 @@ end
 
 def reduce(source_array, starting_value = 0)
 
-if type
+if source_array[1].is_a?("B")
 result = starting_value
 
 i=0
