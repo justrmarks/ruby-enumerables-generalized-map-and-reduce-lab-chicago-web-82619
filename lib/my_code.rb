@@ -13,7 +13,7 @@ end
 
 def reduce(source_array, starting_value = 0)
 
-result += starting_value[0]
+result += starting_value
 
 i=0
 
