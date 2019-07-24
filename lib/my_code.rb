@@ -17,6 +17,8 @@ if source_array[1] != !!source_array[1]
 result = starting_value
 else
   result = !!starting_value
+end
+
 i=0
 
 while i<source_array.length do
