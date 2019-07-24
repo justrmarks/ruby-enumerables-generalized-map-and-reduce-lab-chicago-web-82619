@@ -15,7 +15,7 @@ def reduce(source_array, *starting_value)
 
 if (!starting_value.empty?)
 result = starting_value
-
+end
 
 i=0
 
