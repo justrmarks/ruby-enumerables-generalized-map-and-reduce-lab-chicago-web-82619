@@ -12,9 +12,11 @@ def map(source_array)
 end
 
 def reduce(source_array, starting_value = 0)
-puts !!starting_value
-if (!!starting_value)
+
+if (starting_value != 0)
 result = starting_value
+else
+  result
 end
 
 i=0
