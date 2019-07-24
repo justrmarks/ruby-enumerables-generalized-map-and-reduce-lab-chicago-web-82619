@@ -11,9 +11,9 @@ def map(source_array)
   return result
 end
 
-def reduce(source_array, starting_value = 0)
+def reduce(source_array, *starting_value)
 
-
+if (starting_value[0])
 result = starting_value
 
 
