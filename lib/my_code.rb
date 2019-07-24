@@ -14,7 +14,7 @@ end
 def reduce(source_array, *starting_value)
 
 if (!starting_value.empty?)
-result = starting_value
+result = starting_value[0]
 else
   result = nil
 end
