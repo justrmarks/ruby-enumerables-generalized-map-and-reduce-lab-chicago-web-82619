@@ -12,7 +12,7 @@ def map(source_array)
 end
 
 def reduce(source_array, starting_value = 0)
-
+p !!starting_value
 if (!!starting_value)
 result = starting_value
 end
